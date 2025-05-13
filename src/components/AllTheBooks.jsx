@@ -9,11 +9,11 @@ class AllTheBooks extends Component {
       <Container fluid>
         <Row className="justify-content-center">
           {fantasy.map((book) => (
-            <Col key={book.asin} className="text-center" xs={2} sm={3} md={4} lg={6} xxl={8}>
-              <Card>
-                <Card.Img variant="top" src={book.img} />
+            <Col key={book.asin} className="text-center" xs={8} sm={6} md={4} lg={3} xxl={2}>
+              <Card className="m-2">
+                <Card.Img className="img-card" variant="top" src={book.img} />
                 <Card.Body>
-                  <Card.Title>{book.title}</Card.Title>
+                  <Card.Title className="text-truncate">{book.title}</Card.Title>
                   <Card.Text>{book.category}</Card.Text>
                   <Button variant="primary">€ {book.price}</Button>
                 </Card.Body>
