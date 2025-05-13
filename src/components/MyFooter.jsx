@@ -4,7 +4,7 @@ function MyFooter() {
   return (
     <Container fluid>
       <Row className="justify-content-center">
-        <Col xs={10} className="text-center">
+        <Col xs={12} className="text-center">
           <Card className="text-center bg-primary">
             <Card.Body>
               <Card.Title className="text-white">&copy; 2025 Tester Web</Card.Title>

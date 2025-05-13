@@ -4,11 +4,11 @@ function Mynav() {
   return (
     <Container fluid>
       <Row className="justify-content-center">
-        <Col xs={10} className="text-center">
+        <Col xs={12} className="text-center">
           <Navbar expand="lg" className="bg-primary">
             <Container>
-              <Navbar.Brand className="text-white" href="#home">
-                React-Bootstrap
+              <Navbar.Brand className="text-white fs-1" href="#home">
+                ҉
               </Navbar.Brand>
               <Navbar.Toggle aria-controls="basic-navbar-nav" />
               <Navbar.Collapse id="basic-navbar-nav">
@@ -17,7 +17,10 @@ function Mynav() {
                     Home
                   </Nav.Link>
                   <Nav.Link className="text-white" href="#">
-                    About and Browse
+                    About
+                  </Nav.Link>
+                  <Nav.Link className="text-white" href="#">
+                    Browse
                   </Nav.Link>
                 </Nav>
               </Navbar.Collapse>

@@ -7,7 +7,7 @@ const Welcome = function () {
         <Row className="justify-content-center">
           <Col xs={10} md={4} className="text-center ">
             <Alert className="bg-danger text-dark">Effettuare il login prima di acquistare!!!</Alert>
-            <p className="fs-1 text-dark">Weolcome Home Page</p>
+            <p className="fs-1 text-dark">Welcome Home Page</p>
           </Col>
         </Row>
       </Container>
